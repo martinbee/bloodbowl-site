@@ -1,13 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="ui text container">
-      </div>
-    );
-  }
-}
+import HomePage from './HomePage';
+import RacePage from './RacePage';
+
+const App = () => (
+  <Router>
+    <Switch>
+      <Route
+        path="/races"
+        component={RacePage}
+      />
+      <Route
+        path="/"
+        component={HomePage}
+      />
+    </Switch>
+  </Router>
+);
 
 export default App;
