@@ -7,14 +7,14 @@ import {
 import 'semantic-ui-css/semantic.min.css';
 
 import HomePage from './HomePage';
-import RacePage from './RacePage';
+import TeamPage from './TeamPage';
 
 const App = () => (
   <Router>
     <Switch>
       <Route
-        path="/races"
-        component={RacePage}
+        path="/teams/:teamName"
+        component={TeamPage}
       />
       <Route
         path="/"

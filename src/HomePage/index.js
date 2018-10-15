@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header';
 import Jumbotron from './Jumbotron';
-import Races from './Races';
+import Teams from './Teams';
 
 const HomePage = () => ([
   <Header key="header" />,
   <Jumbotron key="jumbotron" />,
-  <Races key="races" />,
+  <Teams key="teams" />,
 ]);
 
 export default HomePage;
