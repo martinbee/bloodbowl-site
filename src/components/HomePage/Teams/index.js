@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { getTeamShorts } from '../data';
+import { getTeamShorts } from '../../../data';
 
 function renderTeamShorts(teamShorts) {
-  return teamShorts.map(({ title, url }) => (
-    <li key={title}>
-      <a href={url}>{title}</a>
+  return teamShorts.map(({ teamName, url }) => (
+    <li key={teamName}>
+      <Link to={url}>{teamName}</Link>
     </li>
   ));
 }

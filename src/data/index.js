@@ -1,143 +1,143 @@
 const amazonShort = {
-  title: 'Amazons',
+  teamName: 'Amazons',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/amazons',
 };
 const brettonianShort = {
-  title: 'Brettonians',
+  teamName: 'Brettonians',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/brettonians',
 };
 const chaosShort = {
-  title: 'Chaos',
+  teamName: 'Chaos',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/chaos',
 };
 const chaosDwarfShort = {
-  title: 'Chaos Dwarfs',
+  teamName: 'Chaos Dwarfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/chaos-dwarfs',
 };
 const darkElfShort = {
-  title: 'Dark Elfs',
+  teamName: 'Dark Elfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/dark-elfs',
 };
 const dwarfShort = {
-  title: 'Dwarfs',
+  teamName: 'Dwarfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/dwarfs',
 };
 const goblinsShort = {
-  title: 'Goblins',
+  teamName: 'Goblins',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/goblins',
 };
 const halflingsShort = {
-  title: 'Halflings',
+  teamName: 'Halflings',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/halflings',
 };
 const highElfShort = {
-  title: 'High Elfs',
+  teamName: 'High Elfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/high-elfs',
 };
 const humanShort = {
-  title: 'Humans',
+  teamName: 'Humans',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/humans',
 };
 const khemriShort = {
-  title: 'Khemri',
+  teamName: 'Khemri',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/khemri',
 };
 const kislevShort = {
-  title: 'Kislev',
+  teamName: 'Kislev',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/kislev',
 };
 const lizardmenShort = {
-  title: 'Lizardmen',
+  teamName: 'Lizardmen',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/lizardmen',
 };
 const necromanticShort = {
-  title: 'Necromantic',
+  teamName: 'Necromantic',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/necromantic',
 };
 const norseShort = {
-  title: 'Norse',
+  teamName: 'Norse',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/norse',
 };
 const nurgleShort = {
-  title: 'Nurgle',
+  teamName: 'Nurgle',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/nurgle',
 };
 const ogreShort = {
-  title: 'Ogres',
+  teamName: 'Ogres',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/ogres',
 };
 const orcShort = {
-  title: 'Orcs',
+  teamName: 'Orcs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/orcs',
 };
 const proElfShort = {
-  title: 'Pro Elfs',
+  teamName: 'Pro Elfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/pro-elfs',
 };
 const skavenShort = {
-  title: 'Skaven',
+  teamName: 'Skaven',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/skaven',
 };
 const undeadShort = {
-  title: 'Undead',
+  teamName: 'Undead',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/undead',
 };
 const underworldShort = {
-  title: 'Underworld',
+  teamName: 'Underworld',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/underworld',
 };
 const vampireShort = {
-  title: 'Vampires',
+  teamName: 'Vampires',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/vampires',
 };
 const woodElfShort = {
-  title: 'Wood Elfs',
+  teamName: 'Wood Elfs',
   description: 'foo',
   imageUrl: 'fooUrl',
   url: '/teams/wood-elfs',
