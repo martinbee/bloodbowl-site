@@ -6,22 +6,26 @@ import {
 } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 
-import HomePage from './HomePage';
-import TeamPage from './TeamPage';
+import HomePage from './components/HomePage';
+import TeamPage from './components/TeamPage';
+import Disclaimer from './components/Disclaimer';
 
 const App = () => (
-  <Router>
-    <Switch>
-      <Route
-        path="/teams/:teamName"
-        component={TeamPage}
-      />
-      <Route
-        path="/"
-        component={HomePage}
-      />
-    </Switch>
-  </Router>
+  <div>
+    <Router>
+      <Switch>
+        <Route
+          path="/teams/:teamName"
+          component={TeamPage}
+        />
+        <Route
+          path="/"
+          component={HomePage}
+        />
+      </Switch>
+    </Router>
+    <Disclaimer />
+  </div>
 );
 
 export default App;
